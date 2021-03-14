@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Bài 1</title>
+</head>
+<body>
+    <script>
+        let str1;
+        let sum =0;
+        while (str1 !=='-1'){
+           str1= prompt('Nhập giá trị số nguyên đúng');
+           if (isNaN(parseInt(str1))) {
+               alert ('số vừa nhập không đúng kiểu')
+               continue;
+           }else
+           sum += parseInt(str1);
+           alert(sum);
+        }
+    </script>
+
+</body>
+</html>
